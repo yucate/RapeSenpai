@@ -348,11 +348,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '逊呐';
-        if (score <= 99) return '哼哼哼';
-        if (score <= 149) return '你是一个一个一个';
-        if (score <= 199) return '哼哼哼啊啊啊啊啊';
-        return '都撅烂了罢（恼';
+        if (score <= 49) return '菜呐';
+        if (score <= 99) return '嘿嘿嘿';
+        if (score <= 149) return '你唤醒了好多王xx';
+        if (score <= 199) return '啊啊啊啊啊啊啊啊啊';
+        return '都唤醒了罢（气';
     }
 
     w.toStr = function(obj) {
